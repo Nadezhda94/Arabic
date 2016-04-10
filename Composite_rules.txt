@@ -1,0 +1,107 @@
+Lexeme	PartOfSpeech;GrammaticalType;Basis_Imperfect_Subjunctive;Case;Compositness;Conjunction_Type;DegreeOfComparison;Diacritics;Dialect;Form_Character;Gender;Interjection_Type;Mood;Number;Number_possessive;Person;Tense;Type_of_adjective;Type_of_Noun;Type_of_Pluralis;Type_of_Verb;Verb_Stem;Verb_Suppl;Voice
+
+
+Verb cp
+
+VERB -> cp AFT
+AFT -> cp FT
+FT -> verb G
+G -> cp
+G-> verb CP
+CP -> cp CP
+CP -> cp
+
+
+1682		Conj+Noun				Conjuction Conj_Noun		Noun
+1683		Conj+Verb				Conjuction Conj_Verb		Verb
+1684		Verb+Pronoun				Verb		Pronoun GTPronounProverbial
+1685		Noun+Pronoun				Noun GTNoun Comp_Prefixoid		Pronoun GTPronounPossesivePronominal
+1686		Prep+Noun				Preposition Comp_Prefixoid		Noun GTNoun
+1700		Conj+Adjective				Conjuction Conj_Noun		Adjective GTAdjective
+1702		Conj+Pariciple				Conjuction Conj_Verb		Participle GTParticiple
+1703		Prep+Adjective				Preposition Comp_Prefixoid		Adjective GTAdjective
+1706		Prep+Participle				Preposition Comp_Prefixoid		Participle GTParticiple
+1707		Prep+Masdar				Preposition Comp_Prefixoid		Verb GTMasdar
+1708		Prep+Pronoun				Preposition Comp_Prefixoid		Pronoun
+1709		Conj+Pronoun				Conjuction Conj_Noun		Pronoun
+1710		Conj+Adverb				Conjuction Conj_Noun		Adverb GTAdverb
+1711		Conj+Invariable				Conjuction Conj_Noun		Invariable
+1712		Conj+Numeral				Conjuction Conj_Noun		Numeral
+1713		Prep+Conjuction				Preposition Comp_Prefixoid		Conjuction
+1714		Prep+Particle				Preposition Comp_Prefixoid		Particle
+1715		Prep+Adverb				Preposition Comp_Prefixoid		Adverb
+1728		Interjec+Noun				Interjection Interjec_Noun		Noun Genitive
+1729		Interjec+Verb				Interjection Interjec_Verb		Verb GTVerb PersonThird
+2053		Adjective_Superlative+Pronoun				Adjective GTAdjective SuperlativeDegree		Pronoun GTPronounPossesivePronominal
+
+---------------------------------------------------------------------------------------------------
+Conjuction Conj_Noun:
+أَ
+فَ
+كَ
+لِ
+وَ
+---------------------------------------------------------------------------------------------------
+Conjuction Conj_Verb:
+أَ
+فَ
+كَ
+لِ
+وَ
+---------------------------------------------------------------------------------------------------
+Preposition Comp_Prefixoid:
+ب
+ك
+ل
+---------------------------------------------------------------------------------------------------
+Interjection Interjec_Noun:
+بِ
+تَ
+لِ
+وَ
+---------------------------------------------------------------------------------------------------
+Interjection Interjec_Verb:
+لِ
+لْ
+---------------------------------------------------------------------------------------------------
+Pronoun GTPronounProverbial:
+ىِ
+ىِ
+يِ
+يِ
+---------------------------------------------------------------------------------------------------
+Pronoun GTPronounPossesivePronominal:
+ِى
+ِى
+ِي
+ِي
+---------------------------------------------------------------------------------------------------
+Pronoun (все местоимения):
+ألَّذِى
+أُولاَءِ
+بذا
+تَا
+جميعاً
+ذَا
+ذِى
+ذِي
+شيئاً
+كذا
+كَلٌّ
+لذا
+لماذا
+هَؤُلاَءِ
+هَاتَانِ
+هَذَا
+هَذَا
+هَذِهِ
+هكذا
+هُوَ
+ِى
+ِى
+ىِ
+ىِ
+ِي
+ِي
+يِ
+يِ

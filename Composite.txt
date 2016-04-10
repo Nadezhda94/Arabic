@@ -1,0 +1,21 @@
+1682	R		Conj+Noun				Conjuction Conj_Noun		Noun
+1683	R		Conj+Verb				Conjuction Conj_Verb		Verb
+1684	L		Verb+Pronoun				Verb		Pronoun GTPronounProverbial
+1685	R		Noun+Pronoun				Noun GTNoun Comp_Prefixoid		Pronoun GTPronounPossesivePronominal
+1686	R		Prep+Noun				Preposition Comp_Prefixoid		Noun GTNoun
+1700	R		Conj+Adjective				Conjuction Conj_Noun		Adjective GTAdjective
+1702	R		Conj+Pariciple				Conjuction Conj_Verb		Participle GTParticiple
+1703	R		Prep+Adjective				Preposition Comp_Prefixoid		Adjective GTAdjective
+1706	R		Prep+Participle				Preposition Comp_Prefixoid		Participle GTParticiple
+1707	R		Prep+Masdar				Preposition Comp_Prefixoid		Verb GTMasdar
+1708	R		Prep+Pronoun				Preposition Comp_Prefixoid		Pronoun
+1709	R		Conj+Pronoun				Conjuction Conj_Noun		Pronoun
+1710	R		Conj+Adverb				Conjuction Conj_Noun		Adverb GTAdverb
+1711	R		Conj+Invariable				Conjuction Conj_Noun		Invariable
+1712	R		Conj+Numeral				Conjuction Conj_Noun		Numeral
+1713	R		Prep+Conjuction				Preposition Comp_Prefixoid		Conjuction
+1714	R		Prep+Particle				Preposition Comp_Prefixoid		Particle
+1715	R		Prep+Adverb				Preposition Comp_Prefixoid		Adverb
+1728	R		Interjec+Noun				Interjection Interjec_Noun		Noun Genitive
+1729	R		Interjec+Verb				Interjection Interjec_Verb		Verb GTVerb PersonThird
+2053	R		Adjective_Superlative+Pronoun				Adjective GTAdjective SuperlativeDegree		Pronoun GTPronounPossesivePronominal
